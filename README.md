@@ -10,6 +10,12 @@ py -m venv venv
 
 pip install -r requirements.txt
 # install requirements
+
+# activate on Windows (PowerShell)
+venv\Scripts\Activate.ps1
+# or
+venv\Scripts\activate.bat
+# activate on Windows (cmd.exe)
 ```
 
 ## Run server
